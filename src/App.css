@@ -1,0 +1,301 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbaritems{
+  width: 100%;
+  height: 69.5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #40A2E3;
+}
+
+.logo{
+  width: 10%;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar{
+  width: 20%;
+}
+.menu{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  min-height: 90vh;
+  background-color: #070F2B;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+ 
+  padding-left: 0;
+ 
+}
+
+.item{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none; 
+  width: 100%;
+  height: 50px;
+  padding: 0 10px;
+  margin: 5px;
+  color: white;
+  font-size: 25px;
+}
+.item p{
+  width: 100px;
+  font-size: 15px;
+  text-align: left;
+  padding-top: 15px;
+}
+
+.item:hover{
+  color: #40A2E3;
+}
+.tweet{
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  font-size: 20px;
+  background-color: #40A2E3;
+  border: none;
+  border-radius: 20px;
+}
+.rightside{
+  width: 30%;
+  height: 90vh;
+  background-color: #00061a;
+  padding: 20px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #1d212e transparent;
+  scrollbar-gutter: stable;
+}
+
+.search{
+  width: 100%;
+  height: 40px;
+  background-color: rgb(58, 58, 58);
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+  margin:  15px 0;
+}
+.trendbox{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background-color: rgb(58, 58, 58);
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.trendbox h5{
+  color: white;
+  font-size: 13px;
+}
+.trendbox hr{
+  width: 100%;
+ border: 0.5px solid white;
+}
+.trend{
+  margin: 0;
+  border-bottom: 1px solid gray;
+}
+.trend:hover{
+  background-color: rgb(81, 81, 81);
+}
+.trends p{
+  color: gray;
+  font-size: 13px;
+  margin: 5px;
+}
+.trends h6{
+  color: white;
+  margin: 5px;
+}
+.trendbox a{
+  display: block;
+  font-weight: 600;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 15px;
+}
+.logins{
+  margin: 1%;
+}
+
+.login , .signup{
+  margin: 5px;
+  width: 100px;
+  border: none;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.login{
+  background-color: #070F2B;
+  color: white;
+}
+.signup{
+  outline: 1px solid #070F2B;
+  color: #070F2B;
+  background-color: transparent;
+}
+
+.sections{
+  width: 50%;
+  height: 90vh;
+  background-color: #0f1117;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #1d212e transparent;
+  scrollbar-gutter: stable;
+}
+
+
+.post{
+  width: 95%;
+  height: auto;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+  border-radius: 10px;
+  background-color: #202028;
+  margin: 2.5%;
+  padding: 15px;
+}
+
+.post .dp img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.imgposts{
+  width: 100%;
+  height: auto;
+}
+.dp-title{
+  display: flex;
+  gap: 15px;
+  color: white;
+}
+.title h5{
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.title p{
+  font-size: 14px;
+  color: gray;
+}
+.tweet-content{
+  color: white;
+  margin: 10px 10px;
+  text-align: center;
+}
+.likesline{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.like-icons{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.like-icons p{
+    font-size: 20px;
+    color: gray;
+}
+.time p{
+  margin-bottom: 0;
+  padding-top: 10px;
+  margin-top: 15px;
+  color: gray;
+  font-size: 12px;
+  text-align: right;
+}
+.like-icons p span{
+  color: white;
+  margin-left: 8px;
+  font-size: 15px;
+}
+
+.form{
+  width: 100%;
+  padding: 5%;
+}
+
+.form input{
+  width: 97%;
+  margin: 10px;
+  height: 45px;
+  background-color: rgb(58, 58, 58);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+input:focus , textarea:focus{
+  border: none;
+  outline: none;
+}
+
+.form textarea{
+  width: 100%;
+  height: 200px;
+  resize: none;
+  background-color: rgb(58, 58, 58);
+  color: white;
+  border: none;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 18px;
+}
+.form button{
+  width: 50%;
+  margin: 25px 25% 0;
+  border: none;
+  background-color: #40A2E3;
+
+}
+
+.image label{
+  color: white;
+  padding: 10px;
+}
+.image input{
+  padding: 7px;
+  border-radius: 5px;
+}
+.bookmarks{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.bookmark h5{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+.bookmark p{
+  text-align: center;
+  color: rgb(134, 132, 132);
+  font-size: 20px;
+}
+
+
